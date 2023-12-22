@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<script>
+    function toggleDisplay() {
+        // Obtenez l'élément div caché par son identifiant
+        var hiddenDiv = document.getElementById('lu');
+
+        // Changez la propriété display en fonction de l'état actuel
+        if (hiddenDiv.style.display === 'none') {
+            hiddenDiv.style.display = 'block';
+        } else {
+            hiddenDiv.style.display = 'none';
+        }
+    }
+</script>
+
+<body>
+    <header>
+        <img src="menu-btn.png" alt="" class="butt" onclick="toggleDisplay()">
+        <div class="lu" id="lu">
+            <ul>
+                <li><a href="#pack">العروض</a></li>
+                <li><a href="#form-group">الشركة</a></li>
+                <li><a href="#home">الرئيسية</a></li>
+            </ul>
+        </div>
+        <h1>Ecom-freez</h1>
+    </header>
+    <div class="home" id="home">
+        <img src="Golden-building.png" >
+        <div class="hello">
+            <h1>! مرحبا بك</h1>
+            <h2>فرصتك للتعلم و الاستثمار في مكان واحد</h2>
+        </div>
+
+    </div>
+    <div class="form-container">
+        <div class="form-group">
+            <label>تعريف بالشركة :</label>
+
+            <main>
+                مؤسسة <span>ECOM FREEZ</span> هي مؤسسة رائدة في مجال ريادة الأعمال, الإستثمار,التعليم و الخدمات
+                الالكترونية.
+                تأسست يوم 20 ديسمبر 2022.
+                مقرها الرسمي <span>إيمامة منصورة / تلمسان.</span>
+                تتابع أشغالها المتواصلة في رؤية مستقبلية لا تقل عن 10 سنوات مع نظام استثماري وتسويقي يتوافق مع جميع
+                الميادين
+                المتاحة ضمن الاطار العملي للمؤسسة سواء كانت الكترونية أم واقعية أم خليطا بينهما.
+
+            </main>
+
+        </div>
+
+        <div class="form-group" id="form-group">
+            <label>النظام التسويقي :</label>
+
+            <main>
+                تأسيس النظام التسويقي <span>ROYAL ME-Z</span> من طرف الأساتذة:
+                <span> محمد عبد المالك</span> ,<span>عبد المالك مختار</span> ,<span>اسماعيل بن حمو</span> ,<span<>سفيان
+                    بلحساين.</span>
+                    تعود الخدمة لفريق التأسيس الذي تم ذكره و يعود قسم التسويق الخاص بخدمة <span>ROYAL ME-Z</span>
+                    لمؤسسة<span>ECOM
+                        FREE-Z </span>
+                    التي تعود لمالكها السيد <span>دريس عبد الحكيم</span>.
+
+                    التسويق بنظام الاستحواذ التسلسلي هو واحد من انجع الطرق للتسويق والذي يضمن للمسوق الراحة في عمله
+                    وضمان نسبة رضى
+                    100% للزبون.
+            </main>
+
+        </div>
+
+        <div class="form-group">
+            <label>هدف الشركة :</label>
+
+            <main>
+
+                تهدف المؤسسة الى دعم كل أطر الاستثمار سواء الواقعي او على الانترنت او ماهو بينهما, كما تهدف الى دعم
+                وترقية كل من
+                يود الاستثمار او الذهاب لمجال العمل الحر.
+                رسالتنا:
+                تشجيع العمل الحر و ريادة الأعمال و دعمها بالمرافقة و الاحتضان وتطوير العزيمة لدى كل من يبحث عن طرق تطوير
+                نفسه في
+                الميادين العملية والاستثمارية.
+            </main>
+
+        </div>
+
+    </div>
+
+
+    <section class="packs" >
+
+        <article class="pack" id="pack">
+            <h2>GOLD ROYAL </h2>
+            <p>pas encore</p>
+            <p>Prix : 1000£</p>
+            <button> <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfCJXOg-PokhCcj6Rns71sXoPnTOSEWE5JD6ilBygbmA9tMdw/viewform">Acheter</a></button>
+        </article>
+
+        <article class="pack">
+            <h2>DIAMOND ROYAL </h2>
+            <p>pas encore </p>
+            <p>Prix : 2000£</p>
+            <button><a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScVKfEEUsfNTEVOrUAzSLWHiGp2XRoyHnPx9GytRxcK80yu0A/viewform">Acheter</a></button>
+        </article>
+
+        <article class="pack">
+            <h2>PLATINIUM ROYALE </h2>
+            <p>pas encore </p>
+            <p>Prix : 30000£</p>
+            <button> <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScqrsGZhe6BKsWmeyvVU5B8RRW4gBTaC_qsVbFDMfpjg20Wrw/viewform">Acheter</a></button>
+        </article>
+    </section>
+</body>
+
+</html>
